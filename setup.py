@@ -6,13 +6,13 @@ import io
 import re
 from setuptools import setup
 
-with io.open('ssh-py/__init__.py', 'rt', encoding='utf8') as f:
+with io.open('ssh/__init__.py', 'rt', encoding='utf8') as f:
     version = re.search(r'__version__ = \"(.*?)\"', f.read()).group(1)
 
 setup(
     name='ssh-py',
     version=version,
-    packages=["ssh-py"],
+    packages=["ssh"],
     install_requires=[
         'paramiko'
     ],
