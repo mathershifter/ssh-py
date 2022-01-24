@@ -3,3 +3,5 @@
 # Arista Networks, Inc. Confidential and Proprietary.
 
 __version__ = "0.1.0"
+
+from session import Session

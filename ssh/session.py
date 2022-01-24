@@ -93,13 +93,3 @@ class Session():
             results.append(Result(stdout.read(), status, stderr.read()))
         
         return results
-
-def main():
-    sess = Session("gd256", "admin", "")
-
-    result = sess.send([Command("bash", "coolio; exit")])
-    print(result)
-
-
-if __name__ == "__main__":
-    main()
