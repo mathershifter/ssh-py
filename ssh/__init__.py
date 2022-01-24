@@ -2,6 +2,6 @@
 # Copyright (c) 2022 Arista Networks, Inc.  All rights reserved.
 # Arista Networks, Inc. Confidential and Proprietary.
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
-from session import Session
+from ssh.session import Session
